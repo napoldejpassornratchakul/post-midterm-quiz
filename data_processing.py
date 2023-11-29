@@ -97,6 +97,8 @@ class Table:
             pivot_table.append([item, aggregate_val_list])
         return pivot_table
 
+    def insert_row(self,dict):
+
     def __str__(self):
         return self.table_name + ':' + str(self.table)
 
